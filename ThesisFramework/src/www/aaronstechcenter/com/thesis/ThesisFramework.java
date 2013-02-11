@@ -31,7 +31,7 @@ public class ThesisFramework {
 	private static Connection getOracleConnection() throws SQLException {
 	    OracleDataSource ods = new OracleDataSource();
 //	    ods.setUser("system");
-//	    ods.setPassword("Sandan68");
+//	    ods.setPassword("green123");
 	    //                       jdbc:oracle:thin:[USER/PASSWORD]@//[HOST][:PORT]/SERVICE
 		//String connect_string = "jdbc:oracle:thin:hr/hr@//localhost:1521/xe";
 	    String connect_string = "jdbc:oracle:thin:system/green123@//192.168.0.105:1521/EcommDB";
