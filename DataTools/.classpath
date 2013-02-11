@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="/home/aploetz/Downloads/mongo-2.7.3.jar"/>
+	<classpathentry kind="lib" path="/home/aploetz/programming/java/oracle/ojdbc14.jar"/>
+	<classpathentry kind="lib" path="/home/aploetz/workspace/Cassandra-Test/lib/hector-core-0.7.0-22.jar"/>
+	<classpathentry kind="lib" path="/home/aploetz/workspace/Cassandra-Test/lib/cassandra-javautils-0.7.0.jar"/>
+	<classpathentry kind="lib" path="/home/aploetz/workspace/Cassandra-Test/lib/slf4j-log4j12-1.6.1.jar"/>
+	<classpathentry kind="lib" path="/home/aploetz/workspace/Cassandra-Test/lib/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="/home/aploetz/workspace/Cassandra-Test/lib/log4j-1.2.14.jar"/>
+	<classpathentry kind="lib" path="/home/aploetz/workspace/Cassandra-Test/lib/perf4j-0.9.12.jar"/>
+	<classpathentry kind="lib" path="/home/aploetz/workspace/Cassandra-Test/lib/high-scale-lib.jar"/>
+	<classpathentry kind="lib" path="/home/aploetz/workspace/Cassandra-Test/lib/libthrift-0.5.jar"/>
+	<classpathentry kind="lib" path="/home/aploetz/workspace/Cassandra-Test/lib/apache-cassandra-0.7.0-rc2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
