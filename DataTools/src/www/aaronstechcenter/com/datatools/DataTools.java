@@ -948,7 +948,6 @@ public class DataTools
 		    //ods.setUser("system");
 		    //ods.setPassword("green123");
 //                       jdbc:oracle:thin:[USER/PASSWORD]@//[HOST][:PORT]/SERVICE
-//		    String connect_string = "jdbc:oracle:thin:system/Sandan68@//localhost:1521/xe";
 			String connect_string = "jdbc:oracle:thin:system/green123@//192.168.0.105:1521/EcommDB";
 			ods.setURL(connect_string);
 			Connection oConn = ods.getConnection();
