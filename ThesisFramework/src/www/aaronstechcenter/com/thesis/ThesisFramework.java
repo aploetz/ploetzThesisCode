@@ -498,13 +498,13 @@ public class ThesisFramework {
 					long beginDate = System.nanoTime();
 					stmt.executeUpdate();
 					conn.commit();
-				    stmt.close();
-				    //add transaction to log
-				    //java.util.Date endDate = new java.util.Date();
-				    //long endDate = new org.joda.time.DateTime().getMillis();
-				    long endDate = System.nanoTime();
-				    TLog localLog = new TLog(beginDate, endDate, strSQL);
-				    log_.add(localLog);
+				        //add transaction to log
+				        //java.util.Date endDate = new java.util.Date();
+				        //long endDate = new org.joda.time.DateTime().getMillis();
+				        long endDate = System.nanoTime();
+        				stmt.close();
+				        TLog localLog = new TLog(beginDate, endDate, strSQL);
+				        log_.add(localLog);
 				} catch (SQLException ex) {
 					System.out.println(ex);
 				}
